@@ -13,6 +13,7 @@
 		431B171A23C7AE5900FA9955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431B171923C7AE5900FA9955 /* Assets.xcassets */; };
 		431B171D23C7AE5900FA9955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431B171C23C7AE5900FA9955 /* Preview Assets.xcassets */; };
 		431B172023C7AE5900FA9955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431B171E23C7AE5900FA9955 /* LaunchScreen.storyboard */; };
+		431B172A23C7AEBA00FA9955 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B172923C7AEBA00FA9955 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		431B171C23C7AE5900FA9955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		431B171F23C7AE5900FA9955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431B172123C7AE5900FA9955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431B172923C7AEBA00FA9955 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				431B171323C7AE5600FA9955 /* AppDelegate.swift */,
 				431B171523C7AE5600FA9955 /* SceneDelegate.swift */,
 				431B171723C7AE5600FA9955 /* ContentView.swift */,
+				431B172923C7AEBA00FA9955 /* LocationManager.swift */,
 				431B171923C7AE5900FA9955 /* Assets.xcassets */,
 				431B171E23C7AE5900FA9955 /* LaunchScreen.storyboard */,
 				431B172123C7AE5900FA9955 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				431B171423C7AE5600FA9955 /* AppDelegate.swift in Sources */,
 				431B171623C7AE5600FA9955 /* SceneDelegate.swift in Sources */,
+				431B172A23C7AEBA00FA9955 /* LocationManager.swift in Sources */,
 				431B171823C7AE5600FA9955 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

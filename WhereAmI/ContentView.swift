@@ -10,8 +10,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var locationManager = LocationManager()
+    
+    var cityName: String {
+        return locationManager.placemark?.locality ?? "Unknown"
+    }
+    
     var body: some View {
-        Text("Hello, World!")
+        Text(cityName)
+            .font(.largeTitle)
     }
 }
 
